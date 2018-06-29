@@ -1,4 +1,6 @@
 package com.sixthsense.kwickmove.onboard;
 
-public class User {
+import com.sixthsense.kwickmove.domain.BaseResponse;
+
+public class User extends BaseResponse {
 }

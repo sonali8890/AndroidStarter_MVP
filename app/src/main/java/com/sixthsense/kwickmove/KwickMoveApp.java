@@ -13,7 +13,7 @@ import com.sixthsense.kwickmove.di.module.SharedPrefModule;
 public class KwickMoveApp extends Application {
 
 
-    private static Context applicationInstance;
+    private static KwickMoveApp applicationInstance;
 
     private NetworkComponent mNetworkComponent;
 
@@ -34,7 +34,7 @@ public class KwickMoveApp extends Application {
                 .build();
     }
 
-    public static Context getApplicationInstance() {
+    public static KwickMoveApp getApplicationInstance() {
         return applicationInstance;
     }
 

@@ -74,7 +74,6 @@ public class NetworkModule {
 
     @Provides
     @Singleton
-    @Named("BaseUrl")
     Retrofit provideBaseRetrofit(OkHttpClient okHttpClient) {
 
         return new Retrofit.Builder()

@@ -31,7 +31,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     }
 
     @Override
-    public void showError() {
+    public void showError(String msg) {
 
     }
 

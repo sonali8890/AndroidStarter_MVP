@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.sixthsense.rideshareapp"
+        applicationId "com.starterapp.android"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
@@ -50,7 +50,7 @@ dependencies {
     // Google services
     implementation 'com.google.android.gms:play-services-location:15.0.1'
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
-    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.1.0'
 
     // Design libraries
     implementation 'com.android.support:appcompat-v7:27.1.1'
